@@ -54,6 +54,10 @@ public class Loop {
                 .collect(Collectors.toList());
     }
 
+    List<Person> listMales(List<Person> personList) {
+        return personList.stream().filter(person -> person.getGender() == Gender.MALE).collect(Collectors.toList());
+    }
+
     List<Person> listPeopleSortedStream(List<Person> personList) {
         // personList.stream().sorted((person, t1) -> person.getAge()-t1.getAge()).forEach(System.out::println);
         return personList.stream()
