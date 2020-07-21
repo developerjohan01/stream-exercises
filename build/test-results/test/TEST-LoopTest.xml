@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LoopTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-29T14:11:29" hostname="Johans-MBP-2" time="0.009">
-  <properties/>
-  <testcase name="listPeopleSortedStream()" classname="LoopTest" time="0.009"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
